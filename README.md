@@ -137,4 +137,4 @@ type Loan struct {
 * Implement TLS encryption & authentication for secure access.
 * Use event listeners to capture and notify users of loan status update.
 
-Happy coding! 🚀
+Good luck, and Happy coding! 🚀
