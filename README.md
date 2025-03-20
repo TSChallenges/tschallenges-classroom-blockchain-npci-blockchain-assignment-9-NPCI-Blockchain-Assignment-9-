@@ -1,4 +1,6 @@
-# NPCI-Blockchain-Assignment-9 : Lending & Borrowing Platform on Hyperledger Fabric [10 Marks]
+# NPCI Blockchain Assignment-9
+
+## Lending & Borrowing Platform on Hyperledger Fabric [10 Marks]
 
 ## Assignment Objective
 
@@ -28,7 +30,18 @@ To successfully complete this assignment, ensure you have the following:
 - You can use GitHub Codespace, or your own system to work on the Assignment. 
 - To start a new Codespace, select `Code` dropdown >> `Create Codespace on main`. It will have Docker and Go language preinstalled.
 
-  Note that it may take few minutes for the Codespace to start after you click on "Create Codespace on main".
+**Note:** 
+- It may take few minutes for the Codespace to start after you click on "Create Codespace on main".
+- Use **Hyperledger Fabric v2.5.10** in GitHub Codespace for your implementation.
+- Use the below commands to install Fabric samples, Docker images, and binaries:
+
+  **Get the install script:**
+    
+  `curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh`
+
+  **Run the script:**
+    
+  `./install-fabric.sh --fabric-version 2.5.10`
 
 
 ## Assignment Tasks
